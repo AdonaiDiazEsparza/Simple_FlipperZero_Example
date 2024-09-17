@@ -1,4 +1,7 @@
-// Includes the necessary libraries
+/**
+ *  This is a program to give an example using view dispatcher and scene manager to create an app
+ * It displays only a Hello World!
+ */
 
 #include <furi.h>
 #include <furi_hal.h>
