@@ -1,0 +1,9 @@
+App(
+    appid="simple_app",
+    name="HelloWorld",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="app_main",
+    requires=["gui"],
+    stack_size=30 * 1024,
+    fap_category="Misc",
+)
