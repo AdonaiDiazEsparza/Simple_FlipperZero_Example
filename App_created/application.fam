@@ -1,0 +1,11 @@
+App(
+    appid="simple_app_view_disp",
+    name="HiProgram",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="app_main",
+    requires=["gui"],
+    stack_size=4 * 1024,
+    fap_category="Misc",
+    fap_icon="cat.png",
+    fap_icon_assets="assets",
+)
