@@ -25,7 +25,7 @@ static void my_draw_callback(Canvas* canvas, void* context) {
     UNUSED(context);
 
     // Draw an icon
-    canvas_draw_icon(canvas, 60, 20, &I_cat);
+    canvas_draw_icon(canvas, 50, 10, &I_cat);
 
     // Set the font of the text
     canvas_set_font(canvas, FontPrimary);
